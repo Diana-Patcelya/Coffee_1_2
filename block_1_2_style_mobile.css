@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px) {
+    * {
+        transition: all 1s ease;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    header {
+        background-size: 100% 60vh;
+        background-position: bottom;
+    }
+
+    header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+    }
+
+    .block_1_navigation {
+        height: 9.7656vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        left: 10%;
+    }
+    .block_1_logo img{
+        width: 10vw;
+        height: 5vh;
+    }
+
+    .block_1_home > span:first-child {
+        color: #FF4B32;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        font-family: "Open Sans", sans-serif;
+        opacity: 1;
+    }
+
+    .block_1_home {
+        color: #FFF;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 0;
+    }
+
+    .block_1_home span {
+        opacity: 0.7;
+    }
+
+    header > .block_1_black > p:nth-child(1) {
+        width: 80vw;
+        height: 20.5078vh;
+        font-size: 2.5rem;
+    }
+
+    header > .block_1_black > p:nth-child(2) {
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+
+    .block_1_black button {
+        margin-left: 10vw;
+        margin-top: 10vh;
+        margin-bottom: 8vh;
+    }
+
+    /************************************BLOCK 2****************************************/
+    .block_2_choice {
+        height: 1500px;
+    }
+    .block_2_coffee_cost {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block_2_coffee_5, .block_2_coffee_4, .block_2_coffee_3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    .block_2_text{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .block_2_choice h1 {
+        width: 80vw;
+        font-size: 2.5rem;
+    }
+    .block_2_choice p {
+        width: 80vw;
+        font-size: 1.5rem;
+        opacity: 0.7;
+        margin-bottom: 5.8593vh;
+    }
+    .block_2_coffee_cost img{
+        width: 200px;
+        height: 150px;
+        margin: 30px;
+    }
+    h2 {
+        color: #000;
+        font-size: 2rem;
+    }
+
+    .block_2_coffee_cost p {
+        font-size: 1rem;
+        width: 80vw;
+
+    }
+}

@@ -1,0 +1,239 @@
+body {
+    width: 100%;
+    height: 1024px;
+    overflow-y: auto;
+    margin: 0;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 71.19vh;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    background-image: url("coffee_cup_black.png");
+    background-size: 60.4% 71.1914vh;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.block_1_logo{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 130%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+.block_1_logo img{
+    width: 3.4722vw;
+    height: 4.8828vh;
+    flex-shrink: 0;
+    margin-bottom: 0.9765vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block_1_logo>span{
+    margin-left: 0.34722vw;
+    margin-right: 3.4722vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_1_navigation {
+    height: 9.7656vh;
+    width: 60vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+}
+.block_1_home>span:first-child{
+    color: #FF4B32;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    opacity: 1;
+}
+.block_1_home{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0;
+}
+.block_1_home span {
+    margin: 20px ;
+    opacity: 0.5 ;
+}
+
+.block_1_home span:hover {
+    margin: 25px ;
+    opacity: 1 ;
+    transition: 1s;
+}
+
+header>.block_1_black>p:nth-child(1){
+    width: 36.38vw;
+    height: 20.5078vh;
+    color: #FFF;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+header>.block_1_black>p:nth-child(2){
+    width: 35.13vw;
+    height: 6.25vh;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    opacity: 0.8;
+}
+.block_1_black p{
+    margin-left: 10.0669vw;
+}
+.block_1_black button{
+    border-radius: 5px;
+    background: #FF4B32;
+    padding: 16px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 23vh;
+
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+}
+/************************************BLOCK 2****************************************/
+.block_2_choice{
+    height: 860px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.block_2_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 79.7vw;
+    margin: 0 10vw;
+}
+
+.block_2_coffee_cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 79.7vw;
+    margin: 0 10vw;
+}
+
+.block_2_coffee_5, .block_2_coffee_4, .block_2_coffee_3{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+
+}
+.block_2_dollar_price{
+    flex-direction: row;
+}
+
+.block_2_text>h1{
+    width: 41vw;
+    color: #000;
+    font-size: 2.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_text>p{
+    width: 35.1vw;
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    opacity: 0.7;
+    margin-bottom: 5.8593vh;
+
+}
+.block_2_dollar{
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_price{
+    color: #0C0D0C;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+h2{
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.block_2_coffee_cost p{
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+            "wdth" 100;
+    width: 17.8vw;
+    margin: 0;
+}
+
