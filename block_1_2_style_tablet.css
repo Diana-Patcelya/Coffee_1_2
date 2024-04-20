@@ -15,6 +15,7 @@
     }
     .block_1_navigation {
         width: 100vw;
+        height: 10vh;
         display: flex;
         align-items: center;
         justify-content: center;

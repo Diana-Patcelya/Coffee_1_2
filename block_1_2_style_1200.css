@@ -11,7 +11,7 @@ a {
 }
 
 .block_1 {
-    position: relative; /* Додано для використання абсолютного позиціонування для ::after */
+    position: relative;
     background-image: url('image_block_1_2/main_banner_2.png');
     background-size: cover;
     background-position: center;
@@ -85,9 +85,6 @@ a {
     opacity: 1;
     transition: opacity 0.5s ease;
 }
-
-
-
 
 
 .block_1_black{
