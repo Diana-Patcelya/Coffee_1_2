@@ -14,8 +14,10 @@
         height: 71.19vh;
 
     }
+    .block_1_logo{
+        margin-left: 40%;
+    }
     .block_1_logo>span{
-        margin-left: 0.1vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,26 +29,34 @@
 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        /*flex-direction: row;*/
         align-items: center;
         justify-content: flex-start;
         position: relative;
+        overflow-wrap: break-word;
+
         margin-left: 0;
 
     }
     .block_1_home {
+        width: 90vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
+        overflow-wrap: break-word;
+        margin-left: 10vh;
+
+
     }
     .block_1_home > a {
-        flex-basis: 50%;
+        flex-basis: 30%;
         text-align: center;
     }
     .block_1_home > a > span {
         margin: 3px;
         opacity: 0.5;
+        white-space: nowrap;
     }
 
     .block_1_home>a>span:hover {
