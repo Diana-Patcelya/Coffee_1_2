@@ -67,7 +67,7 @@
 
     .block_1_black {
         width: 90vw;
-        height: 60vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
